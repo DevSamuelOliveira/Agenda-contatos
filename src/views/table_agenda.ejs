@@ -1,0 +1,45 @@
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th colspan="7" id="adicionar" data-toggle="modal" data-target="#meumodal"> <i class=" fas fa-plus"></i> Adicionar novo contato</th>
+    </tr>
+    <tr>
+      <th> Tipo do contato </th>
+      <th> Nome </th>
+      <th> Número de celular </th>
+      <th> Número de telefone </th>
+      <th> Descrição </th>
+      <th> Ação </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td> Comercial </td>
+      <td> Samuel Oliveira </td>
+      <td> (71) 99255-0239 </td>
+      <td> Não informado </td>
+      <td> Desenvolvedor do sistema </td>
+      <td> <i class="fas fa-edit"> </i> <i class="fas fa-trash"> </i> </td>
+    </tr>
+    <% dados.map((result) => { %>
+      <tr id="<%=result.id%>line">
+        <td> <%= result.type_contact %> </td>
+        <td> <%= result.name_contact %> </td>
+        <% if (result.number_cel == null) { %>
+        <td> <%= "Não registrado" %> </td>
+        <% } else { %>
+        <td> <%= result.number_cel %> </td>
+        <% } %>
+        <% if (result.number_tel == null) { %>
+        <td> <%= "Não registrado" %> </td>
+        <% } else { %>
+        <td> <%= result.number_tel %> </td>
+        <% } %>
+        <td> <%= result.description %> </td>
+        <td> <i class="fas fa-edit" id="<%=result.id%>" onclick="editar(event)" data-toggle="modal" data-target="#meumodal2"></i> <i class="fas fa-trash" id="<%=result.id%>" onclick="deletar(event)"></i> </td>
+      </tr>
+    <% }) %>
+  </tbody>
+
+</table>

@@ -1,0 +1,58 @@
+#body{
+  background-color: rgb(239, 242, 245);
+}
+
+#contain-table{
+  margin: 0 auto;
+  margin-top: 7vh;
+  text-align: center;
+  width: 75%;
+}
+
+.navbar-brand{
+  user-select: none;
+  /* margin-left: 4vh; */
+}
+
+#btn-login{
+  padding-right: 0;
+  margin-right: 0;
+}
+
+#btn-cadastro{
+  padding-left: 0;
+  margin-left: 0;
+}
+
+#user{
+  user-select: none;
+}
+
+.fas{
+  padding: 0 1vh;
+  cursor: pointer;
+}
+
+.fa-trash{
+  color: rgb(214, 43, 43);
+}
+
+.fa-plus{
+  color: rgb(58, 206, 58);
+}
+
+#adicionar{
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#new_contact input, #att_contact input{
+  margin: 2.5vh 0;
+  display: block;
+  text-align: center;
+}
+
+.modal-body{
+  display: flex;
+  justify-content: center;
+}

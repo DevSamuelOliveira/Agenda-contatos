@@ -1,0 +1,5 @@
+Erro de inicialização no servidor causado pelo banco de dados - Wed Mar 31 2021 23:37:41 GMT-0300 (Brasilia Standard Time)
+Erro de inicialização no servidor causado pelo banco de dados - Wed Mar 31 2021 23:38:15 GMT-0300 (Brasilia Standard Time)
+Erro de inicialização no servidor causado pelo banco de dados - Thu Apr 01 2021 01:50:30 GMT-0300 (Horário Padrão de Brasília)
+Erro de inicialização no servidor causado pelo banco de dados - Thu Apr 01 2021 01:51:44 GMT-0300 (Horário Padrão de Brasília)
+Erro de inicialização no servidor causado pelo banco de dados - Thu Apr 01 2021 01:52:36 GMT-0300 (Brasilia Standard Time)
