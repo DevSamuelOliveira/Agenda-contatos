@@ -9,10 +9,6 @@
   width: 75%;
 }
 
-.navbar{
-  width: 100%;
-}
-
 .navbar-brand{
   user-select: none;
   /* margin-left: 4vh; */
@@ -59,4 +55,10 @@
 .modal-body{
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 576px){
+  .navbar{
+    width: 105vh;
+  }
 }
